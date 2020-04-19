@@ -70,13 +70,13 @@ p {
 }
 
 .about {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin: 15px;
 }
 
 .bio {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   /* border-left: 1px solid grey; */
   margin: 15px;
@@ -117,7 +117,11 @@ p {
   flex-direction: column;
   border: 1px solid grey;
   padding: 1rem;
-  width: 450px;
+  /* min-width: 300px; */
+  width: 90%;
+  max-width: 500px;
+  /* min-width: 10rem; */
+  /* min-width: 250px; */
   border-radius: 5px;
   /* background-color: cornflowerblue; */
   /* box-shadow: green; */
@@ -158,4 +162,10 @@ textarea {
   /* border-radius: 0.75rem 0.75rem 0.75rem 0; */
   cursor: pointer;
   margin: 0.5rem 0;
+}
+
+@media only screen and (max-width: 860px) {
+  .profile {
+    flex-direction: column;
+  }
 }
