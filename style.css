@@ -168,4 +168,8 @@ textarea {
   .profile {
     flex-direction: column;
   }
+
+  .about {
+    border-bottom: 1px solid gray;
+  }
 }
