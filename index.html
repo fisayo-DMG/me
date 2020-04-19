@@ -1,46 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
-    />
-    <title>Startup</title>
-
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <div class="container d-flex align-items-center">
-      <div class="row">
-        <header class="text-center col-12">
-          <img class='header-image' src="img/Fisayo.jpg" alt="">
-          <h1 class="text-uppercase">
-            <strong>Fisayo Aikomo</strong>
-          </h1>
-        </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-          <hr />
-          <a href="https://mailchi.mp/ca2132d3f400/ztmstudents">
-          <button class="btn btn-primary btn-xl">Find out more</button></a>
-        </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fisayo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <nav></nav>
+      <div class="main">
+        <img class='header-image' src="img/Fisayo.jpg" alt="">
+        <h1>Fisayo Aikomo</h1>
+        <p>Fullstack Web Developer</p>
       </div>
     </div>
-  </body>
+  </div>
+  <div class="profile container">
+    <div class="about">
+      <h3>About me</h3>
+      <br>
+      <p>Hello! I am Fisayo. Fullstack Web & Software Developer and Educator</p>
+
+      <p> I'm very detail-oriented, focused on problem solving and always open to new ideas or ways of doing things. When I'm not building the next web solution, I coordinate a team of bright minds who help to introduce kids and teenagers to the world of Software Engineering. </p>
+    </div>
+    <div class="bio">
+      <h3>Bio</h3>
+      <br>
+      <div class="bio-info">
+        <div class="bio-key"><p>State of Origin:</p></div>
+        <div class="bio-value"><p>Ogun</p></div>
+      </div>
+      <div class="bio-info">
+        <div class="bio-key"><p>Date of Birth:</p></div>
+        <div class="bio-value"><p>December 24</p></div>
+      </div>
+      <div class="bio-info">
+        <div class="bio-key"><p>Address:</p></div>
+        <div class="bio-value"><p>Old Bodija, Ibadan, Nigeria</p></div>
+      </div>
+      <div class="bio-info">
+        <div class="bio-key"><p>Home Town:</p></div>
+        <div class="bio-value"><p>Ijebu</p></div>
+      </div>
+      <div class="bio-info">
+        <div class="bio-key"><p>Slack ID:</p></div>
+        <div class="bio-value"><p>Fisayo</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="contact container">
+    <h3>Contact Me</h3>
+    <form class="contact-form">
+      <div class="contact-input">
+        <label for="">Name</label>
+        <input type="text" placeholder="Name">
+      </div>
+
+      <div class="contact-input">
+        <label for="">Subject</label>
+        <input type="text" placeholder="Subject">
+      </div>
+
+      <div class="contact-input">
+        <label for="">E-mail</label>
+        <input type="email" placeholder="E-mail">
+      </div>
+
+      <div class="contact-input">
+        <label for="">Message</label>
+        <textarea name="" id="" cols="30" rows="7" placeholder="Your Message"></textarea>
+      </div>
+      
+      <input class="submit" type="button" value="Send">
+      <!-- <button>Send</button> -->
+    </form>
+  </div>
+</body>
 </html>
