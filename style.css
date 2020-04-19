@@ -24,7 +24,8 @@ body, html {
 
 .background {
   height: 70vh;
-  background: url(img/cc-bg-1.jpg) no-repeat center center fixed; 
+  /* background: url(img/cc-bg-1.jpg) no-repeat center center fixed;  */
+  background: url(img/cc-bg-1.jpg) no-repeat fixed; 
   display: flex;
   justify-content: center;
   align-items: center;
