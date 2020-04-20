@@ -87,12 +87,12 @@ p {
 }
 
 .bio-key {
-  width: 40%;
+  width: 45%;
   font-weight: bold;
 }
 
 .bio-value {
-  width: 60%;
+  width: 55%;
 }
 
 .contact {
@@ -167,6 +167,7 @@ textarea {
 @media only screen and (max-width: 860px) {
   .profile {
     flex-direction: column;
+    align-items: center;
   }
 
   .about {
